@@ -232,6 +232,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 2;
   min-width: 300px;
+  
 }
 
 #hero h1 {
@@ -239,20 +240,24 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: rgb(247, 248, 248);
 }
 
 #hero p {
-  color: #fff;
+  color:rgb(255, 255, 255);
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
+  margin-left: 200px;
 }
 
 #hero p span {
-  color: #fff;
+  color:rgb(4, 253, 249);
+  font-weight: bold;
+  font-family:'brush-script';
   padding-bottom: 4px;
   letter-spacing: 1px;
+  font-size: 38px;
   border-bottom: 3px solid #149ddd;
 }
 
